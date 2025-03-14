@@ -73,6 +73,7 @@ Ensure you have the following installed:
     ```
 
 10. Kill if any process is using port 8080.
+    
     **For mac**
     ```bash
     lsof -i :8080
@@ -112,17 +113,18 @@ Ensure you have the following installed:
 
 Once the application is up and running you will be able to see following pages as you navigate through the application.
 
-### **1. Create Task Page**
-![Create Task Page](Task_Manager_Application_Layout/Create_Task_Page.png)
-
-### **2. Edit/Delete Task Page**
-![Edit/Delete Task Page](Task_Manager_Application_Layout/Edit_Delete_Task_Page.png)
-
-### **3. Login Page**
+### **1. Login Page**
 ![Login Page](Task_Manager_Application_Layout/Login_Page.png)
 
-### **4. Registration Page**
+### **2. Registration Page**
 ![Registration Page](Task_Manager_Application_Layout/Registration_Page.png)
 
-### **5. Tasks Page**
+### **3. Tasks Page**
 ![Tasks Page](Task_Manager_Application_Layout/Tasks_Page.png)
+
+### **4. Create Task Page**
+![Create Task Page](Task_Manager_Application_Layout/Create_Task_Page.png)
+
+### **5. Edit/Delete Task Page**
+![Edit/Delete Task Page](Task_Manager_Application_Layout/Edit_Delete_Task_Page.png)
+
