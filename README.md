@@ -1,6 +1,6 @@
 # Task Manager Application
 
-A full-stack task management system built with **Spring Boot** (backend) and **React.js** (frontend).
+## A full-stack task management system built with **Spring Boot** (backend) and **React.js** (frontend).
 
 ## 🚀 Features
 - User authentication (Login & Registration)
@@ -18,11 +18,47 @@ Ensure you have the following installed:
 ## ⚡ Quick Start
 
 ### Backend (Spring Boot)
-1. Clone the repository:
+1. Check if Git is present or not
+    ```bash
+    git --version
+    ```
+
+2. Clone the repository:
     ```bash
    git clone https://github.com/ManasiJadhav3012/task-manager.git
    cd taskmanager/
    ```
+
+3. Check if Java is present or not
+    ```bash
+    java -version
+    ```
+
+4. Check if maven is present or not
+    ```bash
+    mvn -version
+    ```
+
+
+5. Check if PostgreSQL is present or not
+    ```bash
+    psql --version
+    ```
+
+6. Create database in PostgreSQL
+    ```bash
+    psql -U postgres
+    CREATE DATABASE taskmanager;
+    \l
+    \c taskmanager
+    \dt
+    ```
+
+7. Make following changes in the \task-manager\src\main\resources\application.properties 
+    ```bash
+    spring.datasource.password=ENTER_YOUR_PASSWORD_INSTEAD_OF_THIS_TEXT
+    ```
+    on above line add password value as your PostgreSQL application password.
 
 2. Install Dependencies and run
     ```bash
