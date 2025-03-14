@@ -4,21 +4,22 @@ A full-stack task management system built with **Spring Boot** (backend) and **R
 
 ## 🚀 Features
 - User authentication (Login & Registration)
-- Task CRUD operations
+- Task CRUD operations (Create Task, Edit Task, Delete Task, Update Task)
 - Drag-and-drop task management
-- REST API with JWT authentication
 
 ## 🛠️ Prerequisites
 Ensure you have the following installed:
+- **Git/Github** (to clone the repository)
 - **Java 17+** (for backend)
 - **Maven** (for dependency management)
 - **Node.js + npm** (for frontend)
-- **PostgreSQL or MongoDB** (for database)
+- **PostgreSQL** (for database)
 
 ## ⚡ Quick Start
 
 ### Backend (Spring Boot)
 1. Clone the repository:
+    ```bash
    git clone https://github.com/ManasiJadhav3012/task-manager.git
    cd taskmanager/
 
