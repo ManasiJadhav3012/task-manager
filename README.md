@@ -22,15 +22,22 @@ Ensure you have the following installed:
     ```bash
    git clone https://github.com/ManasiJadhav3012/task-manager.git
    cd taskmanager/
+   ```
 
 2. Install Dependencies and run
+    ```bash
     mvn clean install
     mvn spring-boot:run
+    ```
 
 ### Frontend (React.js)
 3. Navigate to frontend
+    ```bash
     cd ../frontend
+    ```
 
 4. Install Dependencies and run
+    ```bash
     npm install
     npm start
+    ```
