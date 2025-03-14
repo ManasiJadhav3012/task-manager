@@ -4,10 +4,25 @@ import "./CreateTask.css";
 const CreateTask = ({ onTaskCreated, onClose }) => {
     const[title, setTitle] = useState("");
     const[description, setDescription] = useState("");
-    const[status, setStatus] = useState("TO DO");
+    const[status, setStatus] = useState("");
 
     const handleSubmit = async (e) => {
         e.preventDefault();
+
+        if(status === "") {
+            alert("Please select a valid status.");
+            return;
+        }
+
+        if(title === "") {
+            alert("Please enter title.");
+            return;
+        }
+
+        if(description === "") {
+            alert("Please enter description.");
+            return;
+        }
 
         try {
 
@@ -60,6 +75,7 @@ const CreateTask = ({ onTaskCreated, onClose }) => {
 
                     <label>Status:</label>
                     <select name="status" value={status} onChange={(e) => setStatus(e.target.value)}>
+                        <option value="" disabled>Select Status</option>
                         <option value="TODO">TO DO</option>
                         <option value="IN_PROGRESS">IN PROGRESS</option>
                         <option value="DONE">DONE</option>
